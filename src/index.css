@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #252525;
+}
+
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+ul {
+  padding-left: 0;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.nav li {
+  height: 20px;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+.nav li:last-child {
+  float: right;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.nav-user {
+  display: flex;
+  align-items: center;
+}
+
+.nav-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 20px 0 10px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.dashboard{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn-group {
+  width: 100%;
+  max-width: 480px;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+.btn-group button {
+  background-color:#fff;
+  border: 1px solid rgba(0,0,0,.29);
+  color: black;
+  width: 50%;
+  max-width: 240px;
+  text-align: center;
+  padding: 16px 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn-group .active {
+  background: #eee;
+}
+
+.btn-group button:hover {
+  text-decoration: none;
+  background: #ccc;
+}
+
+.btn-group .btn-lft {
+  border-right: 0px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.btn-group .btn-rght {
+  border-left: 0px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.dashboard-list{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  padding: 0;
+}
+  
+.dashboard-list li {
+  margin: 0 8px -10px 8px;
+  padding: 0;
+}
+
+.avatar {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.questionpoll {
+  width: 500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px auto;
+  border: 2px solid #020202;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.questionpoll span{
+  width: 60%;
+  text-align: center;
+  margin: 12px;
+  display: block;
+  float: right;
+}
+
+.questionpoll img {
+  left: 10px;
+  margin: 0;
+}
+
+.questionanswer {
+  width: 600px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  border: 2px solid #020202;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.questionanswer img {
+  left: 10px;
+  margin: 0;
+}
+
+.formright {
+  width: 400px;
+  text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.formright span,
+.formright div,
+.formright button{
+  margin: 8px;
+}
+
+.question {
+  width: 500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px auto;
+  border: 2px solid #020202;
+  border-radius: 5px;
+}
+
+.question img {
+  left: 10px;
+  margin: 0;
+}
+
+.question span{
+  width: 60%;
+  text-align: center;
+  margin: 8px;
+  display: block;
+  float: right;
+}
+
+.userstate {
+  width: 500px;
+  padding: 10px;
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  margin: 10px auto;
+  border: 2px solid #020202;
+  border-radius: 5px;
+}
+
+.userstate span{
+  width: 60%;
+  text-align: center;
+  margin: 12px;
+  display: block;
+  float: right;
+}
+
+.userstate img {
+  left: 10px;
+  margin: 0;
+}
+
+.new-question {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #020202;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  margin: 5px auto;
+  flex-direction: column;
+}
+
+.new-question span,
+.new-question div,
+.new-question button{
+  margin: 8px;
+}
+
+.login-box {
+  padding: 10px;
+  display: flex;
+  align-items: center;  
+  border: 2px solid #020202;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  margin: 5px auto;
+  flex-direction: column;
+}
+
+.user-select {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 200px;
+  margin: 5px auto;
+  flex-direction: column;
+}
+
+.login-box span{
+  margin: 8px auto;
+}
+
+.user-select select {
+  float: right;
+  width: 160px;
+  height: 30px;
+  margin: 20px 0px 10px 10px;
+}

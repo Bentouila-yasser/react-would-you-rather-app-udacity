@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-would-you-rather-app-udacity/static/css/main.b244eff2.chunk.css",
+    "main.js": "/react-would-you-rather-app-udacity/static/js/main.161ae555.chunk.js",
+    "main.js.map": "/react-would-you-rather-app-udacity/static/js/main.161ae555.chunk.js.map",
+    "runtime-main.js": "/react-would-you-rather-app-udacity/static/js/runtime-main.91310b00.js",
+    "runtime-main.js.map": "/react-would-you-rather-app-udacity/static/js/runtime-main.91310b00.js.map",
+    "static/js/2.845dbd3d.chunk.js": "/react-would-you-rather-app-udacity/static/js/2.845dbd3d.chunk.js",
+    "static/js/2.845dbd3d.chunk.js.map": "/react-would-you-rather-app-udacity/static/js/2.845dbd3d.chunk.js.map",
+    "index.html": "/react-would-you-rather-app-udacity/index.html",
+    "static/css/main.b244eff2.chunk.css.map": "/react-would-you-rather-app-udacity/static/css/main.b244eff2.chunk.css.map",
+    "static/js/2.845dbd3d.chunk.js.LICENSE.txt": "/react-would-you-rather-app-udacity/static/js/2.845dbd3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91310b00.js",
+    "static/js/2.845dbd3d.chunk.js",
+    "static/css/main.b244eff2.chunk.css",
+    "static/js/main.161ae555.chunk.js"
+  ]
+}
